@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Seminarraum Sonnenschein mieten | Kreative Seminare bei Berlin (Kemnitz)
+    </title>
+    <meta
+      name="description"
+      content="Mieten Sie den Seminarraum Sonnenschein bei Berlin – ideal für Seminare, Kurse, Workshops und kreative Veranstaltungen. Ruhige Lage, moderne Ausstattung & Übernachtung vor Ort."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://www.seminarraum.net/" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Seminarraum Sonnenschein" />
+    <meta property="og:description" content="Seminarraum Sonnenschein" />
+    <meta
+      property="og:image"
+      content="https://www.seminarraum.net/images/raum.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://www.seminarraum.net/images/raum.jpg"
+    />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html"><img src="images/logo.png" class="logo" /></a>
+        <!-- <nav>
+          <a href="index.html#section1">About</a>
+          <a href="index.html#section2">Galerie</a>
+          <a href="index.html#section3">Preise</a>
+          <a href="index.html#section4">Anfahrt</a>
+        </nav>
+        <div class="burger">☰</div> -->
+      </div>
+    </header>
+
+    <!-- <div class="burger-menu">
+      <a href="index.html#section1">About</a>
+      <a href="index.html#section2">Galerie</a>
+      <a href="index.html#section3">Preise</a>
+      <a href="index.html#section4">Anfahrt</a>
+    </div> -->
+
+    <div class="title">
+      <div class="title-img">
+        <div class="container">
+          <div class="title-box">
+            <h1>Seminarraum mieten in Kemnitz – nahe Berlin</h1>
+            <a href="mailto:kontakt@anja-lechle.de" class="button title-btn"
+              >Jetzt anfragen</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="section1" class="section-header">
+      <h2>Impressum</h2>
+      <p>
+        In den meisten Ländern der Welt ist gesetzlich vorgeschrieben, dass
+        Websites, die nicht ausschließlich privaten oder persönlichen Zwecken
+        dienen, ein rechtsgültiges Impressum enthalten müssen. Das gilt auch für
+        Websites, die einen Blog oder journalistische Texte veröffentlichen. Der
+        Name der für den Inhalt verantwortlichen Person muss im Impressum
+        genannt werden, mit Adresse und einer Möglichkeit der Kontaktaufnahme.
+        Das kann zum Beispiel eine Telefonnummer oder eine Emailadresse sein.
+        Darüberhinaus können je nach Rechtslage in deinem Land weitere
+        Informationen nötig sein. Bitte ziehe einen lokalen Experten zurate, um
+        dich zu informieren, wie dein Impressum genau aussehen muss.
+      </p>
+    </section>
+
+    <footer>
+      <div>&copy; 2025 seminarraum.net</div>
+      <div><a href="impressum.html">Impressum</a></div>
+    </footer>
+
+    <script>
+      document.querySelectorAll("nav a, .burger-menu a").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href").substring(1);
+          const targetElement = document.getElementById(targetId);
+          targetElement.scrollIntoView({ behavior: "smooth" });
+          burgerMenu.classList.toggle("active");
+        });
+      });
+
+      const burger = document.querySelector(".burger");
+      const burgerMenu = document.querySelector(".burger-menu");
+
+      burger.addEventListener("click", () => {
+        burgerMenu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
