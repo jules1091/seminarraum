@@ -82,11 +82,11 @@ section {
   padding-right: 15px;
 }
 
-.section-blue {
+.section-beige {
   background-color: var(--beige);
 }
 
-.section-darkblue {
+.section-green {
   background-color: var(--salbei);
   margin: 0;
 }
