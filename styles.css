@@ -191,6 +191,7 @@ footer {
 
 #imageGallery div {
   width: 100%;
+  background-position: center center;
   background-size: cover;
   height: 350px;
   display: block;
