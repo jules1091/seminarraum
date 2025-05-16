@@ -260,6 +260,41 @@ footer {
   width: 500px;
 }
 
+cite {
+  font-size: 2rem;
+  position: relative;
+  padding: 0 3rem;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+cite::before {
+  content: "";
+  display: block;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  background-image: url("images/quote.svg");
+  position: absolute;
+  left: -1rem;
+  top: -2rem;
+}
+
+cite::after {
+  content: "";
+  display: block;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  background-image: url("images/quote.svg");
+  position: absolute;
+  right: -1rem;
+  bottom: -2rem;
+  transform: rotate(180deg);
+}
+
 @media (max-width: 768px) {
   header {
     padding: 15px;
@@ -372,5 +407,9 @@ footer {
     width: 100%;
     height: 100%;
     border: 0;
+  }
+
+  cite {
+    font-size: 1.5rem;
   }
 }
