@@ -69,7 +69,7 @@ nav a {
 nav a:hover {
   color: var(--salbei);
 }
-section {
+.section {
   padding: 100px 0;
   max-width: 1000px;
   text-align: center;
@@ -295,6 +295,14 @@ cite::after {
   transform: rotate(180deg);
 }
 
+.imprint {
+  text-align: left;
+}
+
+.imprint h1 {
+  font-size: 2rem;
+}
+
 @media (max-width: 768px) {
   header {
     padding: 15px;
@@ -327,7 +335,7 @@ cite::after {
     z-index: 1;
   }
 
-  section {
+  .section {
     padding: 50px 0;
   }
 
