@@ -1,0 +1,10 @@
+# Aktivierung von RewriteEngine
+RewriteEngine On
+
+# Weiterleitungen von alten Seiten auf neue Seiten
+Redirect 301 /galerie https://www.seminarraum.net
+Redirect 301 /preise https://www.seminarraum.net
+Redirect 301 /kontakt https://www.seminarraum.net
+Redirect 301 /datenschutz https://www.seminarraum.net
+Redirect 301 /cookie-einstellungen https://www.seminarraum.net
+
